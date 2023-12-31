@@ -9,6 +9,7 @@ body{
     background-image:url("BG3.jpg");
     background-position: center;
     background-size: cover;
+    /* background-repeat: no-repeat; */
     animation: slide-in-top 0.3s both;
     
 }
@@ -127,7 +128,7 @@ bottom: -110px;
 }
 .fogos{
 width: 90%;
-height: 112%;
+height: 99%;
 display: block;
 position: absolute;
 top: 0;
@@ -220,11 +221,12 @@ right: 10px;
 
 
 a.author{
-font-size: 2rem;
+
+font-size: 1.2rem;
 text-decoration: dotted;
 color: #f47c7c;
-position: absolute ;
-bottom: 10px;
+position: fixed ;
+bottom: 1px;
 right: 10px;
 }
 
